@@ -1,10 +1,12 @@
 class Student
 
-  attr_accessor :name, :grade, :id nil
+  attr_accessor :name, :grade,
+  attr_reader :id nil
 
-  def initialize name: id:
+  def initialize name: grade: id:
     @name = name
-    @id = id
+    @grade = grade
+    @id = some_id
 
   end
 
